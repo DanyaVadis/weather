@@ -1,0 +1,157 @@
+.lSide {
+    max-width: 235px;
+    position: relative;
+}
+
+.titles {
+    position: absolute;
+    top: 87px;
+    left: 102px;
+    width: 130px;
+    text-align: right;
+}
+
+.titles p {
+    white-space: nowrap;
+    font-size: 12px;
+    margin: 14px 0;
+}
+
+.img {
+    width: 188px;
+    height: 150px;
+    margin-right: 45px;
+}
+.img img {
+    width: 100%;
+}
+
+.imgBlock {
+    height: 105px;
+}
+
+.calendDay {
+    width: 100px;
+    text-align: center;
+    padding: 24px 0 0 60px;
+    margin-right: 133px;
+    height: 166px;
+}
+
+.infoDayWeek,
+.infoMonth {
+    font-size: 16px;
+    margin: 0;
+}
+
+.infoDate {
+    font-size: 54px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.therm {
+    position: absolute;
+    background: url('https://sinst.fwdcdn.com/img/newImg/spr4.png') no-repeat 0 -235px;
+    font-size: 0;
+    height: 95px;
+    left: 21px;
+    line-height: 0;
+    top: 34px;
+    width: 34px;
+    z-index: 2;
+}
+
+.therm span {
+    background: url('https://sinst.fwdcdn.com/img/newImg/spr4.png') no-repeat -35px -235px;
+    bottom: 11px;
+    display: block;
+    font-size: 0;
+    left: 22px;
+    line-height: 0;
+    position: absolute;
+    width: 8px;
+    z-index: 3;
+}
+
+.todayTemp {
+    text-align: left;
+    margin: -32px 0 0 60px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.todayTime {
+    padding-left: 14px;
+    color: #777;
+    margin: 0;
+}
+
+@media (max-width: 720px) {
+    .calendDay {
+        margin-right: 100px;
+        padding: 24px 0 0 40px;
+    }
+    .imgBlock .img {
+        margin-right: 15px;
+    }
+    .todayTemp {
+        margin-left: 40px;
+    }
+    .titles {
+        left: 69px;
+    }
+}
+
+@media (max-width: 640px) {
+    .calendDay {
+        margin-right: 75px;
+        padding: 24px 0 0 0px;
+    }
+    .imgBlock .img {
+        width: 175px;
+        margin-right: 0px;
+    }
+    .todayTemp {
+        margin-left: 20px;
+    }
+
+    .titles {
+        left: 44px;
+    }
+}
+
+@media (max-width: 589px) {
+    .imgBlock {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .todayTime {
+        padding: 0;
+    }
+    .imgBlock .img {
+        display: none;
+    }
+    .imgBlock .therm {
+        display: none;
+    }
+    .imgBlock .todayTemp {
+        display: none;
+    }
+    .infoDate {
+        font-size: 35px;
+        padding: 0;
+    }
+    .lSide {
+        width: 30%;
+    }
+    .infoDayWeek {
+        display: none;
+    }
+
+    .titles {
+        width: 100%;
+        left: -5px;
+    }
+}

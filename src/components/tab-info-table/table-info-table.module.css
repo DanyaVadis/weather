@@ -1,0 +1,74 @@
+.container {
+    width: 100%;
+}
+.tabInfo {
+    display: flex;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-top: 0px;
+}
+.table {
+    width: 100%;
+    height: 210px;
+}
+
+.table tr.gray td {
+    background: #f2f2f2;
+}
+.table tr.gray td.current {
+    background: #cfe2f0;
+}
+.current {
+    background-color: #e0eef9;
+}
+
+.parts{
+    display: flex;
+    height: 23px;
+}
+.parts div {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.times td {
+    height: 23px;
+}
+
+.temp td {
+    height: 23px;
+}
+.temp td span{
+    font-weight: 600;
+    font-size: 18px;
+}
+.feelsLike td {
+    height: 23px;
+}
+.feelsLike td span{
+    font-size: 14px;
+}
+.humidity td {
+    height: 23px;
+}
+.clouds td {
+    height: 23px;
+}
+.wind td {
+    height: 23px;
+}
+.timeIcon td {
+    height: 30px;
+    padding: 0;
+    border-spacing: 0px;
+}
+.timeIcon td img{
+    height: 30px;
+}
+
+@media (max-width: 470px) {
+   .table tr:not(.parts) td:nth-child(odd){
+       display: none;
+   }
+}

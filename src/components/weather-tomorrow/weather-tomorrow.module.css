@@ -1,0 +1,130 @@
+.loaderWrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+    height: 435px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.weather {
+    padding: 0 10px;
+    margin-top: 15px;
+    border-radius: 20px;
+    width: 100%;
+    height: 435px;
+    background-color: #fff;
+}
+
+.timeTable {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.field {
+    width: 12.5%;
+    padding: 10px 0px;
+}
+
+.windSpeed {
+    position: absolute;
+    bottom: 55px;
+    left: 20px;
+}
+
+.time {
+    font-size: 18px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    max-width: 90px;
+    height: 90px;
+}
+
+.icon img {
+    width: 100%;
+}
+
+.wrapperTemp {
+    position: relative;
+    background-color: #fff;
+}
+
+.temp {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    width: 100%;
+    height: 30px;
+}
+
+.wind {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-top: 50px;
+}
+
+.wind div {
+    height: 28px;
+    width: 60px;
+    position: absolute;
+    bottom: 6px;
+    left: 52%;
+    background-color: #fff;
+    transform: skew(-12deg) translateX(-50%);
+}
+
+.wind span {
+    position: absolute;
+    font-size: 21px;
+    bottom: 8px;
+    z-index: 2;
+}
+
+.yellow {
+    background-color: rgba(253, 249, 30, 0.6);
+    border-bottom:  2px solid rgba(253, 249, 30, 1);
+}
+
+.darkYellow {
+    background-color: rgba(205, 247, 54, 0.6);
+    border-bottom:  2px solid rgba(205, 247, 54, 1);
+}
+.lightGreen {
+    background-color: rgba(160, 235, 74, 0.6);
+    border-bottom: 2px solid rgba(160, 235, 74, 1);
+}
+.green {
+    background-color: rgba(82, 250, 60, 0.6);
+    border-bottom:  2px solid rgba(82, 250, 60, 1);
+}
+.darkGreen {
+    background-color: rgba(11, 243, 11, 0.6);
+    border-bottom:  2px solid rgba(11, 243, 11, 1);
+}
+.sky {
+    background-color: rgba(52, 238, 245, 0.6);
+    border-bottom:  2px solid rgba(52, 238, 245, 1);
+}
+.blue {
+    background-color: rgba(17, 201, 207, 0.6);
+    border-bottom:  2px solid rgba(17, 201, 207, 0.1);
+}
+
+@media (max-width: 470px) {
+    .timeTable  .field:nth-child(odd){
+        display: none;
+    }
+    .field {
+        width: 25%;
+    }
+ }

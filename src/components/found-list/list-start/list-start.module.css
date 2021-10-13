@@ -1,0 +1,14 @@
+.geo {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.geoImg {
+    height: 14px;
+    width: 14px;
+    margin-right: 7px;
+}
+
+.geoImg img {
+    width: 100%;
+}

@@ -1,0 +1,69 @@
+.tabInfo {
+    display: flex;
+    padding: 10px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
+    border-top: 0px;
+    background-color: #fff;
+}
+
+.lSide {
+    width: 235px;
+    position: relative;
+}
+
+.titles {
+    position: absolute;
+    top: 85px;
+    left: 102px;
+    width: 130px;
+    text-align: right;
+}
+.titles p{
+    font-size: 12px;
+    margin: 13px 0;
+}
+.img {
+    margin-right: 45px;
+}
+.imgBlock {
+    height: 105px;
+}
+
+.therm {
+    position: absolute;
+    background: url('https://sinst.fwdcdn.com/img/newImg/spr4.png') no-repeat 0 -235px;
+    font-size: 0;
+    height: 95px;
+    left: 21px;
+    line-height: 0;
+    top: 34px;
+    width: 34px;
+}
+.therm span {
+    background: url('https://sinst.fwdcdn.com/img/newImg/spr4.png') no-repeat -35px -235px;
+    bottom: 11px;
+    display: block;
+    font-size: 0;
+    left: 22px;
+    line-height: 0;
+    position: absolute;
+    width: 8px;
+}
+
+.todayTemp {
+    text-align: left;
+    margin: -32px 0 0 60px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.todayTime {
+    padding-left: 14px;
+    color: #777;
+    margin: 0;      
+}
+
+@media (max-width: 640px) {
+    .tabInfo {
+        padding: 10px;
+    }
+}

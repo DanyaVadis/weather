@@ -1,0 +1,34 @@
+.loaderWrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+    height: 435px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.weather {
+    width: 100%;
+    margin-top: 15px;
+    padding: 0 10px;
+    border-radius: 20px
+}
+
+.tabDay {
+    display: flex;
+    max-width: 720px;
+}
+
+.city {
+    margin-bottom: 15px;
+    text-align: start;
+}
+.city span {
+    font-size: 20px;
+}
+
+@media (max-width: 767.98px) {
+    .tabDay {
+        overflow: auto;
+    }
+}

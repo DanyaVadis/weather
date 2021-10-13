@@ -1,0 +1,8 @@
+.weather{
+    flex: 1 0 auto;
+}
+
+.container {
+    max-width: 740px;
+    margin: 0 auto;
+}
